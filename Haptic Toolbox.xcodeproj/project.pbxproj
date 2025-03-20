@@ -10,9 +10,33 @@
 		2C7E5B122D8CAE12006F044D /* Haptic Toolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Toolbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2C7E5B762D8CC6D7006F044D /* Exceptions for "Haptic Toolbox" folder in "Haptic Toolbox" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Date+Formatter.swift",
+			);
+			target = 2C7E5B112D8CAE12006F044D /* Haptic Toolbox */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		2C7E5B772D8CC6D7006F044D /* Exceptions for "Haptic Toolbox" folder in "Copy Bundle Resources" phase from "Haptic Toolbox" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 2C7E5B102D8CAE12006F044D /* Resources */;
+			membershipExceptions = (
+				"Extensions/Date+Formatter.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2C7E5B142D8CAE12006F044D /* Haptic Toolbox */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2C7E5B762D8CC6D7006F044D /* Exceptions for "Haptic Toolbox" folder in "Haptic Toolbox" target */,
+				2C7E5B772D8CC6D7006F044D /* Exceptions for "Haptic Toolbox" folder in "Copy Bundle Resources" phase from "Haptic Toolbox" target */,
+			);
 			path = "Haptic Toolbox";
 			sourceTree = "<group>";
 		};
